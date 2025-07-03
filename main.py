@@ -3,5 +3,5 @@ from fastapi import FastAPI
 app = FastAPI()
 @app.get("/")
 def msg():
-    return "welcome"
+    return {"msg":"success"}
 
